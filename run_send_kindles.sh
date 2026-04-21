@@ -17,8 +17,8 @@ KCC_CMD="docker://ghcr.io/ciromattia/kcc:latest"
 LOG="/home/ev/Documents/kindle_send/send_kindles.log"
 mkdir -p "$(dirname "$LOG")"
 
-export SMTP_SERVER=
-export SMTP_PORT=
+export SMTP_SERVER=smtp.gmail.com
+export SMTP_PORT=587
 export EMAIL_USER=
 export EMAIL_PASS=
 
